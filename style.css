@@ -1,0 +1,74 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #575F7D;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #159895;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+a:hover{
+  background-color: #575F7D;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center
+}
+
+.card-white{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  padding: 5px 10px 15px 10px;
+  margin-bottom: 15px;
+  border: 1px solid lightgrey;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
